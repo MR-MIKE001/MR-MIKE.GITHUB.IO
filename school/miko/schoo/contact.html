@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css
+
+
+
+">"
+</head>
+<body>
+    <section class="head">
+        <nav ><a href="about.html"><img src="photo/logo.png"  class="img"></a>
+        <div class="navlinks"id="navlinks">
+            <i class="fa fa-window-close" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="index.html">home</a></li>
+                <li><a href="about.html">about </a></li>
+                <li><a href="course.html">course</a></li>
+                <li><a href="blog.html">blog</a></li>
+                <li><a href="contact.html">contact</a></li>
+              </ul>
+             </div>
+              <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+    <div class="textbox">
+        <h1>contact us</h1>
+    </div>
+
+    </section>
+    <section class="map">
+        <h3>google map</h3>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3940.537808090376!2d7.405536973923405!3d9.014605189216391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e7577d5f65d77%3A0x34306c112090135c!2sFederal%20Medical%20Centre%2C%20Jabi!5e0!3m2!1sen!2sng!4v1693132565267!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <section class="form">
+        <div class="fo" >
+            <h3>leave a comment</h3>
+            <form action="https://formspree.io/f/mrgwqdkk" id="form" method="post">
+            <input type="text" placeholder="full name" id="name" >
+            <input type="email" placeholder="emailaddress" id="email">
+            <input type="tel" placeholder ="phone number" id="phone">
+            <textarea name="textarea" id="textarea" cols="30" rows="10" placeholder="write a comment here"></textarea>
+            <button class="herobtn" >summit</button>
+        </form>
+        </div>
+    </section>
+    
+    <section class="footer">
+        <h4>about us</h4>
+        <p>making websiteis one of the easiest thing in the world you just have to learn htm css and <br>javascript to become a frontend devloper</p>
+    </section>
+
+
+
+    <script>
+        var navme = document.getElementById("navlinks")
+
+        function showmenu() {
+            navme.style.right="0";
+        }
+
+        function hidemenu(){
+            navme.style.right="-200px";
+        }
+    </script>
+  
+
+</body>
+</html>
